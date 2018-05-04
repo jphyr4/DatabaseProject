@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CS3380 Project: Add</title>
+
+  </head>
+  <body>
+      <div>
+   <form action="add.php" method="POST" enctype="multipart/form-data">
+     <input type="hidden" name="action" value = "do_create">
+    <input type="hidden" name="ID">
+    <p>Name: </p><input id="Name" type="text" name="Name"/><br>
+    <p>Breed: </p><input id="Breed" type="text" name="Breed"/><br>
+    <p>Age: </p><input id="Age" type="text" name="Age"/><br><br>
+    <input id="submit" type="submit" value="Save"/>
+  </form>
+      </div>
+  </body>
+</html>

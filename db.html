@@ -1,0 +1,21 @@
+<tr>
+    <td>{ID}</td>
+    <td>{Name}</td>
+    <td>{Breed}</td>
+    <td>{Age}</td>
+    <td>{User_ID}</td>
+    <td>
+        <form action="delete.php" method="post" enctype="multipart/form-data" style="margin:0px;">
+            <input id="ID" type="hidden" name="ID" value="{ID}">
+            <input id="submit" type="submit" value="Delete" />
+        </form>
+        <form action="updateForm.php" method="post" enctype="multipart/form-data" style="margin:0px;">
+            <input id="ID" type="hidden" name="ID" value="{ID}">
+            <input id="Name" type="hidden" name="Name" value="{Name}">
+            <input id="Breed" type="hidden" name="Breed" value="{Breed}">
+            <input id="Age" type="hidden" name="Age" value="{Age}">
+            <input id="User_ID" type="hidden" name="User_ID" value="{User_ID}">
+            <input id="submit" type="submit" value="Edit" />
+        </form>
+    </td>
+</tr>
