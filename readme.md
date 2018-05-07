@@ -97,5 +97,5 @@ Once a user has entered something into the database, they then have the option t
     
 #### Video Demonstration
 
-https://you.tube/Q8tRwUy7nyc
+https://www.youtube.com/watch?v=Q8tRwUy7nyc
         
