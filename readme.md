@@ -17,7 +17,7 @@ This application allows a user to create an account for a database where they ca
 Users
 
 | Field| Type | NULL| Key |Default | Extra | 
-| ------------- |:-------------:| -----:|--- |---|
+| ------------- |:-------------:| -----:|--- |---|---
 |ID | int(6) |NO |PRI|None|auto_increment|
 |Username| varchar(16)|NO||None|None|
 |Password | varchar(16)|NO|None|None||
