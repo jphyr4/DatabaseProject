@@ -55,16 +55,18 @@ Upon login, a user can click the add button, which will take them to a form wher
 #### Read
 
 A user is able to click the search button which will redirect them to a form where they can now search for an animal by its name, breed or age. Our table will now be filtered to the users request. This functionality is implemented in read.php on lines 20-28.
-
-<!--    $ID = empty($_POST['ID']) ? '' : $_POST['ID'];
+```php
+        $ID = empty($_POST['ID']) ? '' : $_POST['ID'];
         $Name = empty($_POST['Name']) ? '' : $_POST['Name'];
         $Breed = empty($_POST['Breed']) ? '' : $_POST['Breed'];
         $Age = empty($_POST['Age']) ? '' : $_POST['Age'];
         $Animals = array();
 
-<!--      $sql = "SELECT * FROM Animals WHERE Name LIKE '%" . $Name . "%' AND Breed LIKE '%" . $Breed . "%' AND Age LIKE '%" . $Age . "%'";
+        $sql = "SELECT * FROM Animals WHERE Name LIKE '%" . $Name . "%' AND Breed LIKE '%" . $Breed . "%' AND Age LIKE '%" . $Age . "%'";
 
         $result = $database->query($sql);  
+        
+        ,,,
 
 #### Update
 
