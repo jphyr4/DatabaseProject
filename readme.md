@@ -66,7 +66,7 @@ A user is able to click the search button which will redirect them to a form whe
 
         $result = $database->query($sql);  
         
-        ,,,
+        ```
 
 #### Update
 
