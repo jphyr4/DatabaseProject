@@ -19,7 +19,7 @@ Users
 | Field| Type | NULL| Key |Default | Extra | 
 | ------------- |:-------------:| -----:|--- |---|---
 |ID | int(6) |NO |PRI|None|auto_increment|
-|Username| varchar(16)|NO||None|None|
+|Username| varchar(16)|NO|Unique|None|None|
 |Password | varchar(16)|NO|None|None||
 
 
