@@ -31,7 +31,7 @@ Animals
 | Name| text|NO||None|None|
 | Breed |text|NO|None|None||
 |Age|int(3)|NO|None|None||
-|User_Id|int(6)|NO|None|None||
+|User_Id|int(6)|NO|None|None|Foreign|
 
 
 
