@@ -49,8 +49,9 @@ Animals
 
 Upon login, a user can click the add button, which will take them to a form where they can enter the name, breed and age of an animal. Once the submit button is clicked, thier entry will be stored into the database. This is executed in the add.php file on line 43.
 
-<!--- $query = "INSERT INTO Animals(Name, Breed, Age, User_Id) VALUES ('$Name', '$Breed', '$Age', '$id');"; -->
-
+```php
+$query = "INSERT INTO Animals(Name, Breed, Age, User_Id) VALUES ('$Name', '$Breed', '$Age', '$id');"; -->
+```
 
 #### Read
 
@@ -71,20 +72,20 @@ A user is able to click the search button which will redirect them to a form whe
 #### Update
 
 Once an enrtry is stored in the database, the use can then edit the input information to thier liking. THis helps in the event that there was an input error when originally filling the forms to be stored in the database. This functionality is seen in update.php on lines 21-28.
-
-<!--    $ID = $_REQUEST['ID'];
+```php
+        $ID = $_REQUEST['ID'];
         $Name = $_REQUEST['Name'];
         $Breed = $_REQUEST['Breed'];
         $Age = $_REQUEST['Age'];
 
 
-<!--    $sql = "UPDATE Animals SET Name='" . $Name . "', Breed='" . $Breed . "', Age='" . $Age . "' WHERE ID='" . $ID . "'";
+    $sql = "UPDATE Animals SET Name='" . $Name . "', Breed='" . $Breed . "', Age='" . $Age . "' WHERE ID='" . $ID . "'";
         $result = $database->query($sql); -->
-
+```
 #### Delete
 
 Once a user has entered something into the database, they then have the option to completely delete a previously stored entry from the database. A delete button is available for every entry in the table. The delete functionality is displayed in delete.php on lines 21-27.
-
+```php
 <!--    $id = $_REQUEST['ID'];
 
         $animals = array();
@@ -92,7 +93,7 @@ Once a user has entered something into the database, they then have the option t
         $sql = "DELETE FROM Animals WHERE ID='" . $id . "'";
 
         $result = $database->query($sql);
-    
+```    
     
 #### Video Demonstration
 
