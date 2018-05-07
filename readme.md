@@ -65,8 +65,8 @@ A user is able to click the search button which will redirect them to a form whe
         $sql = "SELECT * FROM Animals WHERE Name LIKE '%" . $Name . "%' AND Breed LIKE '%" . $Breed . "%' AND Age LIKE '%" . $Age . "%'";
 
         $result = $database->query($sql);  
-        
-        ```
+       
+```
 
 #### Update
 
